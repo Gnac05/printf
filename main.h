@@ -3,7 +3,7 @@
 
 #include <stdarg.h> /* va_list */
 #include <stdlib.h> /* malloc, free */
-#include <unistd.h> /* write */
+// #include <unistd.h> /* write */
 
 /* helper functions */
 char* (*get_func(char i))(va_list);
